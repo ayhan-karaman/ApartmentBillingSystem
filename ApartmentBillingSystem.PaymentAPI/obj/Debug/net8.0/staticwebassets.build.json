@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "OiGlH7KTxnRwgXFf7vTwli4tf7RFpcMzc3w3xxzfj+4=",
+  "Source": "ApartmentBillingSystem.PaymentAPI",
+  "BasePath": "_content/ApartmentBillingSystem.PaymentAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

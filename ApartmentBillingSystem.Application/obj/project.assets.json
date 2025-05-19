@@ -1,0 +1,94 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "ApartmentBillingSystem.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/ApartmentBillingSystem.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ApartmentBillingSystem.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ApartmentBillingSystem.Domain/1.0.0": {
+      "type": "project",
+      "path": "../ApartmentBillingSystem.Domain/ApartmentBillingSystem.Domain.csproj",
+      "msbuildProject": "../ApartmentBillingSystem.Domain/ApartmentBillingSystem.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "ApartmentBillingSystem.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/codespace/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/workspaces/ApartmentBillingSystem/ApartmentBillingSystem.Application/ApartmentBillingSystem.Application.csproj",
+      "projectName": "ApartmentBillingSystem.Application",
+      "projectPath": "/workspaces/ApartmentBillingSystem/ApartmentBillingSystem.Application/ApartmentBillingSystem.Application.csproj",
+      "packagesPath": "/home/codespace/.nuget/packages/",
+      "outputPath": "/workspaces/ApartmentBillingSystem/ApartmentBillingSystem.Application/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/codespace/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "/workspaces/ApartmentBillingSystem/ApartmentBillingSystem.Domain/ApartmentBillingSystem.Domain.csproj": {
+              "projectPath": "/workspaces/ApartmentBillingSystem/ApartmentBillingSystem.Domain/ApartmentBillingSystem.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.407/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

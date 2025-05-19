@@ -1,0 +1,16 @@
+/workspaces/ApartmentBillingSystem/ApartmentBillingSystem.Application/bin/Debug/net8.0/ApartmentBillingSystem.Application.deps.json
+/workspaces/ApartmentBillingSystem/ApartmentBillingSystem.Application/bin/Debug/net8.0/ApartmentBillingSystem.Application.dll
+/workspaces/ApartmentBillingSystem/ApartmentBillingSystem.Application/bin/Debug/net8.0/ApartmentBillingSystem.Application.pdb
+/workspaces/ApartmentBillingSystem/ApartmentBillingSystem.Application/bin/Debug/net8.0/ApartmentBillingSystem.Domain.dll
+/workspaces/ApartmentBillingSystem/ApartmentBillingSystem.Application/bin/Debug/net8.0/ApartmentBillingSystem.Domain.pdb
+/workspaces/ApartmentBillingSystem/ApartmentBillingSystem.Application/obj/Debug/net8.0/ApartmentBillingSystem.Application.csproj.AssemblyReference.cache
+/workspaces/ApartmentBillingSystem/ApartmentBillingSystem.Application/obj/Debug/net8.0/ApartmentBillingSystem.Application.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/ApartmentBillingSystem/ApartmentBillingSystem.Application/obj/Debug/net8.0/ApartmentBillingSystem.Application.AssemblyInfoInputs.cache
+/workspaces/ApartmentBillingSystem/ApartmentBillingSystem.Application/obj/Debug/net8.0/ApartmentBillingSystem.Application.AssemblyInfo.cs
+/workspaces/ApartmentBillingSystem/ApartmentBillingSystem.Application/obj/Debug/net8.0/ApartmentBillingSystem.Application.csproj.CoreCompileInputs.cache
+/workspaces/ApartmentBillingSystem/ApartmentBillingSystem.Application/obj/Debug/net8.0/ApartmentBillingSystem.Application.sourcelink.json
+/workspaces/ApartmentBillingSystem/ApartmentBillingSystem.Application/obj/Debug/net8.0/Apartmen.A894E347.Up2Date
+/workspaces/ApartmentBillingSystem/ApartmentBillingSystem.Application/obj/Debug/net8.0/ApartmentBillingSystem.Application.dll
+/workspaces/ApartmentBillingSystem/ApartmentBillingSystem.Application/obj/Debug/net8.0/refint/ApartmentBillingSystem.Application.dll
+/workspaces/ApartmentBillingSystem/ApartmentBillingSystem.Application/obj/Debug/net8.0/ApartmentBillingSystem.Application.pdb
+/workspaces/ApartmentBillingSystem/ApartmentBillingSystem.Application/obj/Debug/net8.0/ref/ApartmentBillingSystem.Application.dll

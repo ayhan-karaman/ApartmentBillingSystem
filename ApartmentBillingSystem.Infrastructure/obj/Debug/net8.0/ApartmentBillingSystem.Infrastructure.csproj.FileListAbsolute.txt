@@ -1,0 +1,16 @@
+/workspaces/ApartmentBillingSystem/ApartmentBillingSystem.Infrastructure/bin/Debug/net8.0/ApartmentBillingSystem.Infrastructure.deps.json
+/workspaces/ApartmentBillingSystem/ApartmentBillingSystem.Infrastructure/bin/Debug/net8.0/ApartmentBillingSystem.Infrastructure.dll
+/workspaces/ApartmentBillingSystem/ApartmentBillingSystem.Infrastructure/bin/Debug/net8.0/ApartmentBillingSystem.Infrastructure.pdb
+/workspaces/ApartmentBillingSystem/ApartmentBillingSystem.Infrastructure/bin/Debug/net8.0/ApartmentBillingSystem.Domain.dll
+/workspaces/ApartmentBillingSystem/ApartmentBillingSystem.Infrastructure/bin/Debug/net8.0/ApartmentBillingSystem.Domain.pdb
+/workspaces/ApartmentBillingSystem/ApartmentBillingSystem.Infrastructure/obj/Debug/net8.0/ApartmentBillingSystem.Infrastructure.csproj.AssemblyReference.cache
+/workspaces/ApartmentBillingSystem/ApartmentBillingSystem.Infrastructure/obj/Debug/net8.0/ApartmentBillingSystem.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/ApartmentBillingSystem/ApartmentBillingSystem.Infrastructure/obj/Debug/net8.0/ApartmentBillingSystem.Infrastructure.AssemblyInfoInputs.cache
+/workspaces/ApartmentBillingSystem/ApartmentBillingSystem.Infrastructure/obj/Debug/net8.0/ApartmentBillingSystem.Infrastructure.AssemblyInfo.cs
+/workspaces/ApartmentBillingSystem/ApartmentBillingSystem.Infrastructure/obj/Debug/net8.0/ApartmentBillingSystem.Infrastructure.csproj.CoreCompileInputs.cache
+/workspaces/ApartmentBillingSystem/ApartmentBillingSystem.Infrastructure/obj/Debug/net8.0/ApartmentBillingSystem.Infrastructure.sourcelink.json
+/workspaces/ApartmentBillingSystem/ApartmentBillingSystem.Infrastructure/obj/Debug/net8.0/Apartmen.62E30204.Up2Date
+/workspaces/ApartmentBillingSystem/ApartmentBillingSystem.Infrastructure/obj/Debug/net8.0/ApartmentBillingSystem.Infrastructure.dll
+/workspaces/ApartmentBillingSystem/ApartmentBillingSystem.Infrastructure/obj/Debug/net8.0/refint/ApartmentBillingSystem.Infrastructure.dll
+/workspaces/ApartmentBillingSystem/ApartmentBillingSystem.Infrastructure/obj/Debug/net8.0/ApartmentBillingSystem.Infrastructure.pdb
+/workspaces/ApartmentBillingSystem/ApartmentBillingSystem.Infrastructure/obj/Debug/net8.0/ref/ApartmentBillingSystem.Infrastructure.dll

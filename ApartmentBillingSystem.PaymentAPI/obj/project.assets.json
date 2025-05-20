@@ -474,32 +474,40 @@
     ]
   },
   "packageFolders": {
-    "/home/codespace/.nuget/packages/": {}
+    "C:\\Users\\Ayhan\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/workspaces/ApartmentBillingSystem/ApartmentBillingSystem.PaymentAPI/ApartmentBillingSystem.PaymentAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Ayhan\\Desktop\\MyWorks\\NetWorks\\ApartmentBillingSystem\\ApartmentBillingSystem.PaymentAPI\\ApartmentBillingSystem.PaymentAPI.csproj",
       "projectName": "ApartmentBillingSystem.PaymentAPI",
-      "projectPath": "/workspaces/ApartmentBillingSystem/ApartmentBillingSystem.PaymentAPI/ApartmentBillingSystem.PaymentAPI.csproj",
-      "packagesPath": "/home/codespace/.nuget/packages/",
-      "outputPath": "/workspaces/ApartmentBillingSystem/ApartmentBillingSystem.PaymentAPI/obj/",
+      "projectPath": "C:\\Users\\Ayhan\\Desktop\\MyWorks\\NetWorks\\ApartmentBillingSystem\\ApartmentBillingSystem.PaymentAPI\\ApartmentBillingSystem.PaymentAPI.csproj",
+      "packagesPath": "C:\\Users\\Ayhan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ayhan\\Desktop\\MyWorks\\NetWorks\\ApartmentBillingSystem\\ApartmentBillingSystem.PaymentAPI\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/codespace/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Ayhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/workspaces/ApartmentBillingSystem/ApartmentBillingSystem.Domain/ApartmentBillingSystem.Domain.csproj": {
-              "projectPath": "/workspaces/ApartmentBillingSystem/ApartmentBillingSystem.Domain/ApartmentBillingSystem.Domain.csproj"
+            "C:\\Users\\Ayhan\\Desktop\\MyWorks\\NetWorks\\ApartmentBillingSystem\\ApartmentBillingSystem.Domain\\ApartmentBillingSystem.Domain.csproj": {
+              "projectPath": "C:\\Users\\Ayhan\\Desktop\\MyWorks\\NetWorks\\ApartmentBillingSystem\\ApartmentBillingSystem.Domain\\ApartmentBillingSystem.Domain.csproj"
             }
           }
         }
@@ -513,7 +521,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -547,7 +556,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.407/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

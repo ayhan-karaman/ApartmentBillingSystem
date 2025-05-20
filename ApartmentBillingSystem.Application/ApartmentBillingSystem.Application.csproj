@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ApartmentBillingSystem.Domain\ApartmentBillingSystem.Domain.csproj" />
+    <ProjectReference Include="..\ApartmentBillingSystem.Infrastructure\ApartmentBillingSystem.Infrastructure.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

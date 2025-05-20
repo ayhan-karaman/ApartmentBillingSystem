@@ -1430,7 +1430,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "ApartmentBillingSystem.Domain": "1.0.0"
+          "ApartmentBillingSystem.Domain": "1.0.0",
+          "ApartmentBillingSystem.Infrastructure": "1.0.0"
         },
         "compile": {
           "bin/placeholder/ApartmentBillingSystem.Application.dll": {}
@@ -3781,35 +3782,43 @@
     ]
   },
   "packageFolders": {
-    "/home/codespace/.nuget/packages/": {}
+    "C:\\Users\\Ayhan\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/workspaces/ApartmentBillingSystem/ApartmentBillingSystem.Web/ApartmentBillingSystem.Web.csproj",
+      "projectUniqueName": "C:\\Users\\Ayhan\\Desktop\\MyWorks\\NetWorks\\ApartmentBillingSystem\\ApartmentBillingSystem.Web\\ApartmentBillingSystem.Web.csproj",
       "projectName": "ApartmentBillingSystem.Web",
-      "projectPath": "/workspaces/ApartmentBillingSystem/ApartmentBillingSystem.Web/ApartmentBillingSystem.Web.csproj",
-      "packagesPath": "/home/codespace/.nuget/packages/",
-      "outputPath": "/workspaces/ApartmentBillingSystem/ApartmentBillingSystem.Web/obj/",
+      "projectPath": "C:\\Users\\Ayhan\\Desktop\\MyWorks\\NetWorks\\ApartmentBillingSystem\\ApartmentBillingSystem.Web\\ApartmentBillingSystem.Web.csproj",
+      "packagesPath": "C:\\Users\\Ayhan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ayhan\\Desktop\\MyWorks\\NetWorks\\ApartmentBillingSystem\\ApartmentBillingSystem.Web\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/codespace/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Ayhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/workspaces/ApartmentBillingSystem/ApartmentBillingSystem.Application/ApartmentBillingSystem.Application.csproj": {
-              "projectPath": "/workspaces/ApartmentBillingSystem/ApartmentBillingSystem.Application/ApartmentBillingSystem.Application.csproj"
+            "C:\\Users\\Ayhan\\Desktop\\MyWorks\\NetWorks\\ApartmentBillingSystem\\ApartmentBillingSystem.Application\\ApartmentBillingSystem.Application.csproj": {
+              "projectPath": "C:\\Users\\Ayhan\\Desktop\\MyWorks\\NetWorks\\ApartmentBillingSystem\\ApartmentBillingSystem.Application\\ApartmentBillingSystem.Application.csproj"
             },
-            "/workspaces/ApartmentBillingSystem/ApartmentBillingSystem.Infrastructure/ApartmentBillingSystem.Infrastructure.csproj": {
-              "projectPath": "/workspaces/ApartmentBillingSystem/ApartmentBillingSystem.Infrastructure/ApartmentBillingSystem.Infrastructure.csproj"
+            "C:\\Users\\Ayhan\\Desktop\\MyWorks\\NetWorks\\ApartmentBillingSystem\\ApartmentBillingSystem.Infrastructure\\ApartmentBillingSystem.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Ayhan\\Desktop\\MyWorks\\NetWorks\\ApartmentBillingSystem\\ApartmentBillingSystem.Infrastructure\\ApartmentBillingSystem.Infrastructure.csproj"
             }
           }
         }
@@ -3823,7 +3832,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -3855,7 +3865,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.407/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

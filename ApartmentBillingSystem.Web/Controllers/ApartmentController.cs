@@ -15,7 +15,7 @@ namespace ApartmentBillingSystem.Web.Controllers
 
         public async Task<IActionResult> Index()
         {
-            var apartments = await _apartmentService.GetAllAsync();
+            var apartments = await _apartmentService.GetAllApartmentsAsync();
             return View(apartments);
         }
 

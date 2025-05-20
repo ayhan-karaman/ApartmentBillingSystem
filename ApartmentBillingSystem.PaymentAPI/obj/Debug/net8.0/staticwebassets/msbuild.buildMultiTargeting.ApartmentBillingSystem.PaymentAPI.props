@@ -1,3 +1,3 @@
 ﻿<Project>
-  <Import Project="../build/ApartmentBillingSystem.PaymentAPI.props" />
+  <Import Project="..\build\ApartmentBillingSystem.PaymentAPI.props" />
 </Project>

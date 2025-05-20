@@ -38,7 +38,7 @@ ApartmentBillingSystem is a modular and layered web application for managing apa
 ## 📂 Project Structure
 ```bash
 ApartmentBillingSystem/
-└───    ApartmentBillingSystem.Domain/         # Entities and enums
+└───├── ApartmentBillingSystem.Domain/         # Entities and enums
     ├── ApartmentBillingSystem.Application/    # Interfaces and business logic (services)
     ├── ApartmentBillingSystem.Infrastructure/ # EF Core and data access (repositories)
     ├── ApartmentBillingSystem.Web/            # ASP.NET MVC UI (Controllers + Views)

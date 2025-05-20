@@ -1,3 +1,4 @@
+using System.Collections;
 using ApartmentBillingSystem.Application.Services.Interfaces;
 using ApartmentBillingSystem.Domain.Entities;
 using ApartmentBillingSystem.Infrastructure.Repositories.Interfaces;
@@ -12,10 +13,6 @@ public class ApartmentService : IApartmentService
         _apartmentRepository = apartmentRepository;
     }
 
-    public async Task<IEnumerable<Apartment>> GetAllAsync()
-    {
-        return await _apartmentRepository.GetAllAsync();
-    }
 
     public async Task<Apartment?> GetByIdAsync(int id)
     {
@@ -24,7 +21,7 @@ public class ApartmentService : IApartmentService
 
     public async Task<Apartment?> GetByNumberAsync(string number)
     {
-        return await _apartmentRepository.GetSingleAsync(a => a.Number == number);
+        return await _apartmentRepository.GetSingleAsync(x => x.Type == number);
     }
 
     public async Task<IEnumerable<Apartment>> GetByBlockAsync(string block)
@@ -52,5 +49,10 @@ public class ApartmentService : IApartmentService
             _apartmentRepository.Delete(apartment);
             await _apartmentRepository.SaveChangesAsync();
         }
+    }
+
+    public async Task<IEnumerable> GetAllApartmentsAsync()
+    {
+        return await _apartmentRepository.GetAllAsync();
     }
 }

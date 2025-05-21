@@ -6,7 +6,7 @@ using ApartmentBillingSystem.Domain.Entities;
 
 namespace ApartmentBillingSystem.Infrastructure.Repositories.Interfaces
 {
-    public interface IUserRepository : IGenericRepository<User>
+    public interface IUserRepository : IGenericRepository<ApplicationUser>
     {
 
     }

@@ -1,15 +1,20 @@
+using ApartmentBillingSystem.Domain.Enums;
+
 namespace ApartmentBillingSystem.Domain.Entities;
 
 public class Apartment
 {
     public int Id { get; set; }
-    public string Block { get; set; } = null!;
+
+    public BlockType Block { get; set; } 
     public int Floor { get; set; }
     public int Number { get; set; }
-    public string Type { get; set; } = null!;  // Ör: 2+1, 3+1
+    public ApartmentType Type { get; set; } 
     public bool IsOccupied { get; set; } = false;
 
-    // Navigation
-    public ICollection<User> Users { get; set; } = new List<User>();
+    public int? UserId { get; set; } 
+    public ApplicationUser? User { get; set; }
+
     public ICollection<Bill> Bills { get; set; } = new List<Bill>();
+    public ICollection<Fee> Fees { get; set; } = new List<Fee>();
 }

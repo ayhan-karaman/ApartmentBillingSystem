@@ -2,14 +2,21 @@ namespace ApartmentBillingSystem.Domain.Entities;
 
 public class Message
 {
-    public int Id { get; set; }
-    public int FromUserId { get; set; }
-    public User? FromUser { get; set; }
+     public int Id { get; set; }
 
-    public int ToUserId { get; set; }
-    public User? ToUser { get; set; }
+    // Mesajı gönderen kullanıcı
+    public int SenderId { get; set; }
+    public ApplicationUser Sender { get; set; } = null!;
 
-    public string Content { get; set; } = null!;
-    public DateTime SentAt { get; set; }
-    public bool IsRead { get; set; }
+    // Mesajı alan kullanıcı (örn. admin veya başka kullanıcı)
+    public int ReceiverId { get; set; }
+    public ApplicationUser Receiver { get; set; } = null!;
+
+    public string Subject { get; set; } = string.Empty;
+
+    public string Content { get; set; } = string.Empty;
+
+    public DateTime SentAt { get; set; } = DateTime.UtcNow;
+
+    public bool IsRead { get; set; } = false;
 }

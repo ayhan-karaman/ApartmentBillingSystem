@@ -13,6 +13,7 @@
 C:\Users\Ayhan\Desktop\MyWorks\NetWorks\ApartmentBillingSystem\ApartmentBillingSystem.Domain\bin\Debug\net8.0\ApartmentBillingSystem.Domain.deps.json
 C:\Users\Ayhan\Desktop\MyWorks\NetWorks\ApartmentBillingSystem\ApartmentBillingSystem.Domain\bin\Debug\net8.0\ApartmentBillingSystem.Domain.dll
 C:\Users\Ayhan\Desktop\MyWorks\NetWorks\ApartmentBillingSystem\ApartmentBillingSystem.Domain\bin\Debug\net8.0\ApartmentBillingSystem.Domain.pdb
+C:\Users\Ayhan\Desktop\MyWorks\NetWorks\ApartmentBillingSystem\ApartmentBillingSystem.Domain\obj\Debug\net8.0\ApartmentBillingSystem.Domain.csproj.AssemblyReference.cache
 C:\Users\Ayhan\Desktop\MyWorks\NetWorks\ApartmentBillingSystem\ApartmentBillingSystem.Domain\obj\Debug\net8.0\ApartmentBillingSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Ayhan\Desktop\MyWorks\NetWorks\ApartmentBillingSystem\ApartmentBillingSystem.Domain\obj\Debug\net8.0\ApartmentBillingSystem.Domain.AssemblyInfoInputs.cache
 C:\Users\Ayhan\Desktop\MyWorks\NetWorks\ApartmentBillingSystem\ApartmentBillingSystem.Domain\obj\Debug\net8.0\ApartmentBillingSystem.Domain.AssemblyInfo.cs

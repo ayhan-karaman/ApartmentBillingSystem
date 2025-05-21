@@ -1,0 +1,32 @@
+@model List<ApartmentBillingSystem.Domain.Entities.Fee>
+
+<h2>Fee List</h2>
+
+<a class="btn btn-primary" asp-action="Create">Create New Fee</a>
+
+<table class="table table-bordered mt-3">
+    <thead>
+        <tr>
+            <th>Apartment</th>
+            <th>Month</th>
+            <th>Type</th>
+            <th>Amount</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var fee in Model)
+        {
+            <tr>
+                <td>@fee.Apartment?.Number</td>
+                <td>@fee.Month.ToString("yyyy-MM")</td>
+                <td>@fee.Amount</td>
+                <td>@fee.IsPaid</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@fee.Id">Edit</a> |
+                    <a asp-action="Delete" asp-route-id="@fee.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

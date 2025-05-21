@@ -19,10 +19,7 @@ public class ApartmentService : IApartmentService
         return await _apartmentRepository.GetByIdAsync(id);
     }
 
-    public async Task<Apartment?> GetByNumberAsync(string number)
-    {
-        return await _apartmentRepository.GetSingleAsync(x => x.Type == number);
-    }
+    
 
     public async Task<IEnumerable<Apartment>> GetByBlockAsync(string block)
     {

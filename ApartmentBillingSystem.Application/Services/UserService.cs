@@ -15,23 +15,31 @@ namespace ApartmentBillingSystem.Application.Services
             _userRepository = userRepository;
         }
 
-        public Task<User?> GetUserByIdAsync(int id) => _userRepository.GetByIdAsync(id);
+        public Task<ApplicationUser?> GetUserByIdAsync(int id) => _userRepository.GetByIdAsync(id);
 
-        public async Task<User?> GetUserByEmailAsync(string email) => await _userRepository.GetSingleAsync(x => x.Email == email);
+        public async Task<ApplicationUser?> GetUserByEmailAsync(string email) => await _userRepository.GetSingleAsync(x => x.Email == email);
 
-        public async Task AddUserAsync(User user) => await _userRepository.AddAsync(user);
+        public async Task AddUserAsync(ApplicationUser user) => await _userRepository.AddAsync(user);
 
-        public async Task UpdateUserAsync(User user) => await Task.Run(() => _userRepository.Update(user));
+        public async Task UpdateUserAsync(ApplicationUser user)
+        {
+            await Task.Run(() => _userRepository.Update(user));
+            await _userRepository.SaveChangesAsync();
+        }
 
         public async Task DeleteUserAsync(int id)
         {
-            User? user = await _userRepository.GetByIdAsync(id);
+            ApplicationUser? user = await _userRepository.GetByIdAsync(id);
             if (user is not null)
+            {
                 await Task.Run(() => _userRepository.Delete(user));
+                await _userRepository.SaveChangesAsync();
+            }
+
 
         }
 
-        public async Task<IEnumerable<User>?> GetAllUsersAsync()
+        public async Task<IEnumerable<ApplicationUser>?> GetAllUsersAsync()
         => await _userRepository.GetAllAsync();
             
     }

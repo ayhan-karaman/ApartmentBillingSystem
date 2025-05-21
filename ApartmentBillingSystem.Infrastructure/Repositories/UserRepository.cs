@@ -6,7 +6,7 @@ using ApartmentBillingSystem.Infrastructure.Repositories.Interfaces;
 
 namespace ApartmentBillingSystem.Infrastructure.Repositories
 {
-    public class UserRepository : GenericRepository<User>, IUserRepository
+    public class UserRepository : GenericRepository<ApplicationUser>, IUserRepository
     {
         public UserRepository(AppDbContext context) : base(context)
         {

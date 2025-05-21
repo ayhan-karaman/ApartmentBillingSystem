@@ -42,7 +42,11 @@ C:\Users\Ayhan\Desktop\MyWorks\NetWorks\ApartmentBillingSystem\ApartmentBillingS
 C:\Users\Ayhan\Desktop\MyWorks\NetWorks\ApartmentBillingSystem\ApartmentBillingSystem.PaymentAPI\bin\Debug\net8.0\ApartmentBillingSystem.PaymentAPI.runtimeconfig.json
 C:\Users\Ayhan\Desktop\MyWorks\NetWorks\ApartmentBillingSystem\ApartmentBillingSystem.PaymentAPI\bin\Debug\net8.0\ApartmentBillingSystem.PaymentAPI.dll
 C:\Users\Ayhan\Desktop\MyWorks\NetWorks\ApartmentBillingSystem\ApartmentBillingSystem.PaymentAPI\bin\Debug\net8.0\ApartmentBillingSystem.PaymentAPI.pdb
+C:\Users\Ayhan\Desktop\MyWorks\NetWorks\ApartmentBillingSystem\ApartmentBillingSystem.PaymentAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\Ayhan\Desktop\MyWorks\NetWorks\ApartmentBillingSystem\ApartmentBillingSystem.PaymentAPI\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Ayhan\Desktop\MyWorks\NetWorks\ApartmentBillingSystem\ApartmentBillingSystem.PaymentAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Ayhan\Desktop\MyWorks\NetWorks\ApartmentBillingSystem\ApartmentBillingSystem.PaymentAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Ayhan\Desktop\MyWorks\NetWorks\ApartmentBillingSystem\ApartmentBillingSystem.PaymentAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\Ayhan\Desktop\MyWorks\NetWorks\ApartmentBillingSystem\ApartmentBillingSystem.PaymentAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
 C:\Users\Ayhan\Desktop\MyWorks\NetWorks\ApartmentBillingSystem\ApartmentBillingSystem.PaymentAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Ayhan\Desktop\MyWorks\NetWorks\ApartmentBillingSystem\ApartmentBillingSystem.PaymentAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll

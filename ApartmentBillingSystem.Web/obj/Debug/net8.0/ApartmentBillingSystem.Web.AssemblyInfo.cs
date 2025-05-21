@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApartmentBillingSystem.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b93ae3d6f8dc55c0d7d4d886075cd6e06a73dae2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c05a7305842836b2bef0b92739246320ebd493d5")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApartmentBillingSystem.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApartmentBillingSystem.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApartmentBillingSystem.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c05a7305842836b2bef0b92739246320ebd493d5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6485f68deaac03ca30a32a68ba41b8bd29bef274")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApartmentBillingSystem.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApartmentBillingSystem.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

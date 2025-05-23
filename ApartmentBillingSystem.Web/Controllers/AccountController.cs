@@ -1,4 +1,5 @@
 using ApartmentBillingSystem.Application.ViewModels.Auth;
+using ApartmentBillingSystem.Domain.Entities;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
@@ -6,9 +7,9 @@ namespace ApartmentBillingSystem.Web.Controllers
 {
     public class AccountController : Controller
     {
-        private readonly SignInManager<IdentityUser> _signInManager;
+        private readonly SignInManager<ApplicationUser> _signInManager;
 
-        public AccountController(SignInManager<IdentityUser> signInManager)
+        public AccountController(SignInManager<ApplicationUser> signInManager)
         {
             _signInManager = signInManager;
         }
@@ -39,14 +40,13 @@ namespace ApartmentBillingSystem.Web.Controllers
         {
             if (!string.IsNullOrWhiteSpace(returnUrl) && Url.IsLocalUrl(returnUrl))
                 return Redirect(returnUrl);
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("Index", "Dashboard");
         }
 
-        [HttpPost]
         public async Task<IActionResult> Logout()
         {
             await _signInManager.SignOutAsync();
-            return RedirectToAction("Login", "Account");
+            return Redirect("/Account/Login");
         }
     }
 }

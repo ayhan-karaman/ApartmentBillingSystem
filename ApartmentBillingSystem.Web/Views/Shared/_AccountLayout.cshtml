@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="tr">
+<partial name="_Head" />
+
+<body id="reportsPage">
+    <div class="" id="home">
+        <div class="container">
+            <!-- row -->
+            <div style="min-height: 89vh;" class="row d-flex justify-content-center align-items-center tm-content-row">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+
+    <partial name="_Script" />
+    @await RenderSectionAsync("Scripts", required:false)
+</body>
+
+</html>

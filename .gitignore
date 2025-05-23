@@ -5,7 +5,7 @@
 
 # dotenv files
 .env
-
+**/wwwroot/lib/
 # User-specific files
 *.rsuser
 *.suo

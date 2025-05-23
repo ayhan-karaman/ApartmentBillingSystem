@@ -1,0 +1,32 @@
+{
+  "version": "3.0",
+  "defaultProvider": "cdnjs",
+  "defaultDestination": ".\\",
+  "libraries": [
+    {
+      "provider": "unpkg",
+      "library": "@fortawesome/fontawesome-free@5.15.4",
+      "destination": "wwwroot/lib/fontawesome"
+    },
+    {
+      "provider": "unpkg",
+      "library": "bootstrap@5.3.6",
+      "destination": "wwwroot/lib/bootstrap"
+    },
+    {
+      "provider": "unpkg",
+      "library": "jquery-validation@1.21.0",
+      "destination": "wwwroot/lib/jquery-validation"
+    },
+    {
+      "provider": "unpkg",
+      "library": "jquery-validation-unobtrusive@4.0.0",
+      "destination": "wwwroot/lib/jquery-validation-unobtrusive"
+    },
+    {
+      "provider": "unpkg",
+      "library": "jquery@3.7.1",
+      "destination": "wwwroot/lib/jquery"
+    }
+  ]
+}

@@ -1,8 +1,63 @@
-﻿@model  ApartmentBillingSystem.Application.ViewModels.UserDashboardViewModel
+﻿@model ApartmentBillingSystem.Application.ViewModels.UserDashboardViewModel
 @{
     ViewData["Title"] = "User Page";
 }
 
+<h2>Payment History</h2>
 
 
 
+
+
+<div class="col-12 tm-block-col">
+    <div class="tm-bg-primary-dark tm-block tm-block-taller tm-block-scroll">
+        <h2 class="tm-block-title">Aidatlar (Fees)</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Month</th>
+                    <th>Amount</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var fee in Model.Fees)
+                {
+                    <tr>
+                        <td>@fee.Month.ToString("MMMM yyyy")</td>
+                        <td>@fee.Amount ₺</td>
+                        <td>@(fee.IsPaid ? "Paid" : "Unpaid")</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+<div class="col-12 tm-block-col">
+    <div class="tm-bg-primary-dark tm-block tm-block-taller tm-block-scroll">
+        <h2 class="tm-block-title">Faturalar (Bills)</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Month</th>
+                    <th>Type</th>
+                    <th>Amount</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var bill in Model.Bills)
+                {
+                    <tr>
+                        <td>@bill.Month.ToString("MMMM yyyy")</td>
+                        <td>@bill.Type</td>
+                        <td>@bill.Amount ₺</td>
+                        <td>@(bill.IsPaid ? "Paid" : "Unpaid")</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

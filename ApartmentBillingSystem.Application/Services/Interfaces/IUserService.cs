@@ -1,4 +1,5 @@
 
+using ApartmentBillingSystem.Application.ViewModels;
 using ApartmentBillingSystem.Domain.Entities;
 
 namespace ApartmentBillingSystem.Application.Services.Interfaces
@@ -11,5 +12,6 @@ namespace ApartmentBillingSystem.Application.Services.Interfaces
         Task UpdateUserAsync(ApplicationUser user);
         Task DeleteUserAsync(int id);
         Task<IEnumerable<ApplicationUser>?> GetAllUsersAsync();
+        Task<UserDashboardViewModel> GetUserDashboardViewInfoAsync(int userId);
     }
 }
